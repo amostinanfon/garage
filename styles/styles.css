@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #282C31;
+    --secondary-color: #0668BB;
+    --tertiary-color: #373C43;
+    --quaternary-color: #ffffff;
+
+}
+
+
+* {
+    background-color: var(--primary-color);
+}
