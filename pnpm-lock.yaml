@@ -3,22 +3,26 @@ lockfileVersion: 5.4
 specifiers:
   '@chakra-ui/icons': ^2.0.13
   '@chakra-ui/react': ^2.5.5
+  '@chakra-ui/system': ^2.5.5
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
   framer-motion: ^10.10.0
   next: 13.2.4
   react: 18.2.0
   react-dom: 18.2.0
+  react-icons: ^4.8.0
 
 dependencies:
-  '@chakra-ui/icons': 2.0.13_react@18.2.0
+  '@chakra-ui/icons': 2.0.13_lze4h7kxffpjhokvtqbtrlfkmq
   '@chakra-ui/react': 2.5.5_wok6sar7bd25embmdcgm73j4rq
+  '@chakra-ui/system': 2.5.5_xqp3pgpqjlfxxa3zxu4zoc4fba
   '@emotion/react': 11.10.6_react@18.2.0
   '@emotion/styled': 11.10.6_3og6jmu6wvzuytygvdoxepq3x4
   framer-motion: 10.10.0_biqbaboplfbrettd7655fr4n2y
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.8.0_react@18.2.0
 
 packages:
 
@@ -324,13 +328,14 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/icon/3.0.13_react@18.2.0:
+  /@chakra-ui/icon/3.0.13_lze4h7kxffpjhokvtqbtrlfkmq:
     resolution: {integrity: sha512-RaDLC4psd8qyInY2RX4AlYRfpLBNw3VsMih17BFf8EESVhBXNJcYy7Q9eMV/K4NvZfZT42vuVqGVNFmkG89lBQ==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
       '@chakra-ui/shared-utils': 2.0.3
+      '@chakra-ui/system': 2.5.5_xqp3pgpqjlfxxa3zxu4zoc4fba
       react: 18.2.0
     dev: false
 
@@ -345,13 +350,14 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@chakra-ui/icons/2.0.13_react@18.2.0:
+  /@chakra-ui/icons/2.0.13_lze4h7kxffpjhokvtqbtrlfkmq:
     resolution: {integrity: sha512-86X+NXAr2N/whkp8vNt0Qf5udqSPVc3lAe4U4w7SkSa/+PnDggfAM6Sc5HwLp8Er0h/RF97DuwFi9YZ/ZRJCDA==}
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/icon': 3.0.13_react@18.2.0
+      '@chakra-ui/icon': 3.0.13_lze4h7kxffpjhokvtqbtrlfkmq
+      '@chakra-ui/system': 2.5.5_xqp3pgpqjlfxxa3zxu4zoc4fba
       react: 18.2.0
     dev: false
 
@@ -1803,6 +1809,14 @@ packages:
       react-clientside-effect: 1.2.6_react@18.2.0
       use-callback-ref: 1.3.0_react@18.2.0
       use-sidecar: 1.1.2_react@18.2.0
+    dev: false
+
+  /react-icons/4.8.0_react@18.2.0:
+    resolution: {integrity: sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
