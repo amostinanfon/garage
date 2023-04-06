@@ -6,22 +6,25 @@ import colors from '../colors/color';
 const Hero = () => {
   return (
     <Box>
-    <Flex mx={10} p={5} mt={[2,4, 6]} flexDir={['column','column','row']}>
-      <Flex flex={1} flexDir='column' gap={5} color='white'>
+    <Flex mx={10} p={5} mt={[2,4, 6]} flexDir={['column-reverse','column-reverse','row']}>
+      <Flex flex={1} flexDir='column' gap={5} color='white' bgColor={'transparent'}>
         <Text 
           noOfLines={[2,2,2]}
           bgColor={'transparent'}
           w={['100%','100%','130%']}
-          zIndex={999}
-          fontSize={[24,30,40,80]}
-          fontWeight={[700, 900]}
           lineHeight={1.0}
+          zIndex={999}
+          fontSize={[24,30,40,70]}
+          fontWeight={[700, 900]}
+          pb={5}
+          overflow='scroll'
+          flex={1}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing     
+           GROUPE TASSO dépannage véhicule  
         </Text>
-        <Text w={'80%'} noOfLines={[2,2,2]} lineHeight={1.0}
->Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Perferendis sunt animi, iam reiciendis quod! Veniam.
+        <Text w={'80%'} noOfLines={[2,2,2]} lineHeight={1.0} bgColor={'transparent'}>
+        offrir la réparation automobile de la plus haute qualité est la façon 
+        dont nous forgeons des relations avec nos clients
         </Text>
         <Center>
           <Button
@@ -35,16 +38,16 @@ const Hero = () => {
         </Center>
 
          {/*i love this game */}
-         <Flex display={['none','block']}>
-         <Flex flexDir={'row'} h={'50'} gap={5} my={[32,16]}>
+         <Flex>
+         <Flex flexDir={'row'} h={'50'} gap={5} my={[16]}>
            <Box >
               <Divider w={50} orientation='vertical' />
            </Box>
            <Center>
-           <Box  w={120} ml={'-12'} mr={4}>
+           <Box  w={120} ml={['-20','-16','-12']} mr={[-6,-2,4]}>
              <Text 
               color={'white.900'} 
-              textAlign='center' 
+              textAlign='center'
               p='5px'
               fontWeight={800}
               >
@@ -57,15 +60,15 @@ const Hero = () => {
               color={'white.900'} 
               textAlign='center'
               >
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            </Text>
+              Techniciens expérimentés          
+          </Text>
           </Box>
         </Center>
           <Box>
             <Divider w={50} orientation='vertical'/>
           </Box>
           <Center>
-          <Box  w={120} ml={'-12'} mr={4}>
+          <Box  w={120} ml={[-20,-16,-12]} mr={[-6,-2,4]}>
             <Text 
               color={'white.900'} 
               textAlign='center' 
@@ -80,7 +83,7 @@ const Hero = () => {
               color={'white.900'} 
               textAlign='center'
               >
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Projets déjà réalisés 
             </Text>
           </Box>
           </Center>
@@ -88,7 +91,7 @@ const Hero = () => {
         </Flex> 
          </Flex>
       </Flex>
-      <Box flex={1} my={[10,0]}>
+      <Box flex={1} mb={5}>
         <Image src='/img/photo5.jpg' rounded={5} w={[580,600,800]} h={[200,300,300,400]}/>
       </Box>
     </Flex>
