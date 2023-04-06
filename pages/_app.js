@@ -24,8 +24,8 @@ const breakpoints = {
 
 const fonts = {
     heading: `'Open Sans', sans-serif`,
-    body: `'Raleway', sans-serif`,
-    span: `"Stalemate", cursive;`
+    // body: `'Raleway', sans-serif`,
+    // span: `"Stalemate", cursive;`
 }
 
 
