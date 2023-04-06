@@ -28,8 +28,8 @@ const NAV_ITEMS  = [
     label: 'Accueil',
     children: [
       {
-        label: 'Explore Design Work',
-        subLabel: 'Trending Design to inspire you',
+        label: 'GROUPE & GARAGE TASSO',
+        subLabel: 'introduction sommaire',
         href: '#',
       },
       {
@@ -40,22 +40,22 @@ const NAV_ITEMS  = [
     ],
   },
   {
-    label: 'Qui Sommes-nous ?',
+    label: 'Nos Services',
     children: [
       {
-        label: 'Job Board',
-        subLabel: 'Find your dream design job',
+        label: 'Dépannage',
+        subLabel: 'Trouvez toutes les informations',
         href: '#',
       },
       {
-        label: 'Freelance Projects',
-        subLabel: 'An exclusive list for contract work',
+        label: 'Vente & Achat',
+        subLabel: "Tout ce qu'il faut savoir à propos des ventes ou achats",
         href: '#',
       },
     ],
   },
   {
-    label: 'Nos Services',
+    label: 'Qui Sommes-nous',
     href: '#',
   },
   {
