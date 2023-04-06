@@ -6,7 +6,11 @@ specifiers:
   '@chakra-ui/system': ^2.5.5
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
+  '@fontsource/open-sans': ^4.5.14
+  '@fontsource/raleway': ^4.5.12
+  '@fontsource/stalemate': ^4.5.10
   framer-motion: ^10.10.0
+  helvatica-neue-lt: ^1.0.1
   next: 13.2.4
   react: 18.2.0
   react-dom: 18.2.0
@@ -18,7 +22,11 @@ dependencies:
   '@chakra-ui/system': 2.5.5_xqp3pgpqjlfxxa3zxu4zoc4fba
   '@emotion/react': 11.10.6_react@18.2.0
   '@emotion/styled': 11.10.6_3og6jmu6wvzuytygvdoxepq3x4
+  '@fontsource/open-sans': 4.5.14
+  '@fontsource/raleway': 4.5.12
+  '@fontsource/stalemate': 4.5.10
   framer-motion: 10.10.0_biqbaboplfbrettd7655fr4n2y
+  helvatica-neue-lt: 1.0.1
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1289,6 +1297,18 @@ packages:
     resolution: {integrity: sha512-AHPmaAx+RYfZz0eYu6Gviiagpmiyw98ySSlQvCUhVGDRtDFe4DBS0x1bSjdF3gqUDYOczB+yYvBTtEylYSdRhg==}
     dev: false
 
+  /@fontsource/open-sans/4.5.14:
+    resolution: {integrity: sha512-mBXIIETBlW8q/ocuUN0hyGow2iuf75hQEHQt8R/RJ/HcphVbLg8KB7pHYGbFGDqs75W+SWvTC7JkVeAjT65BuQ==}
+    dev: false
+
+  /@fontsource/raleway/4.5.12:
+    resolution: {integrity: sha512-uKs13d6NFWU4vf5LSDHK/cbaAw+UXkzz03fKjyvkKq8Nop+CeB6o8STEDkZD9/uOo3v3sgm59Wyw8uGWvxoCiA==}
+    dev: false
+
+  /@fontsource/stalemate/4.5.10:
+    resolution: {integrity: sha512-4Ya9NhhyxtlwmjRqIyBvt20/867EOj95TkpMor9GBaxUvviH+1otXEJt6SaRHTp+2lbykGbF45H9qqklrJr5/g==}
+    dev: false
+
   /@next/env/13.2.4:
     resolution: {integrity: sha512-+Mq3TtpkeeKFZanPturjcXt+KHfKYnLlX6jMLyCrmpq6OOs4i1GqBOAauSkii9QeKCMTYzGppar21JU57b/GEA==}
     dev: false
@@ -1610,6 +1630,10 @@ packages:
     engines: {node: '>= 0.4.0'}
     dependencies:
       function-bind: 1.1.1
+    dev: false
+
+  /helvatica-neue-lt/1.0.1:
+    resolution: {integrity: sha512-ZfFjacUT3Rrcz5jg9g6ObpmDS+IuZMMKBeqwuEiwhw1jASZBTflsrVIhBQ5hYWQsXirN/dys0RHQQmtwgwnGJg==}
     dev: false
 
   /hoist-non-react-statics/3.3.2:

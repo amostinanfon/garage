@@ -1,4 +1,7 @@
 // pages/_app.js
+import '@fontsource/raleway/400.css'
+import '@fontsource/open-sans/700.css'
+import "@fontsource/stalemate"
 import '../styles/styles.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Layout } from '@/components/Layout'
@@ -19,14 +22,22 @@ const breakpoints = {
   '2xl': '1536px',
 }
 
+const fonts = {
+    heading: `'Open Sans', sans-serif`,
+    body: `'Raleway', sans-serif`,
+    span: `"Stalemate", cursive;`
+}
 
 
-// const theme = extendTheme({ colors })
+
+
+
+const theme = extendTheme({ fonts , breakpoints })
 
 // 3. Pass the `theme` prop to the `ChakraProvider`
 function App({ Component, pageProps }) {
   return (
-    <ChakraProvider >
+    <ChakraProvider  theme={theme}>
       <Layout>
         <Component {...pageProps} />
       </Layout>
