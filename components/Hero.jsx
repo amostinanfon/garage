@@ -1,67 +1,62 @@
 import {
-  Button,
+  chakra,
+  Box,
+  useColorModeValue,
   Flex,
+  IconButton,
   Heading,
-  Image,
+  Button,
   Stack,
-  Text,
-  useBreakpointValue,
 } from '@chakra-ui/react';
 
-export default function Hero() {
+import { AiOutlineMenu } from "react-icons/ai";
+
+
+const Hero = () => {
+  const bg = useColorModeValue("white", "gray.800");
   return (
-    <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
-      <Flex p={8} flex={1} align={'center'} justify={'center'}>
-        <Stack spacing={6} w={'full'} maxW={'lg'}>
-          <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
-            <Text
-              as={'span'}
-              position={'relative'}
-              _after={{
-                content: "''",
-                width: 'full',
-                height: useBreakpointValue({ base: '20%', md: '30%' }),
-                position: 'absolute',
-                bottom: 1,
-                left: 0,
-                bg: 'blue.400',
-                zIndex: -1,
-              }}>
-              GROUPE TASSO
-            </Text>
-            <br />{' '}
-            <Text color={'blue.400'} as={'span'}>
-              garage automobile
-            </Text>{' '}
-          </Heading>
-          <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-          offrir la réparation automobile de la plus haute 
-          qualité est la façon dont nous forgeons des relations avec nos clients .
-          </Text>
-          <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+    <chakra.header>
+      <Box
+        w="full"
+        h="container.sm"
+        backgroundImage="/img/photo12.jpg"
+        bgPos="center"
+        bgSize="cover"
+      >
+        <Flex
+          align="center"
+          pos="relative"
+          justify="center"
+          boxSize="full"
+          bg="blackAlpha.700"
+        >
+          <Stack textAlign="center" alignItems="center" spacing={6}>
+            <Heading
+              fontSize={["2xl", , "3xl"]}
+              fontWeight="semibold"
+              color="white"
+              textTransform="uppercase"
+            >
+              GARAGE{" "}
+              <chakra.span color="blue.400" textDecor="underline">
+                GROUPE TASSO
+              </chakra.span>
+            </Heading>
             <Button
-              rounded={'full'}
-              bg={'blue.400'}
-              color={'white'}
-              _hover={{
-                bg: 'blue.500',
-              }}>
-              Contactez-nous
+              colorScheme="brand"
+              textTransform="uppercase"
+              w="fit-content"
+            >
+              COntactez-nous
             </Button>
-            <Button rounded={'full'}>En savoir plus </Button>
           </Stack>
-        </Stack>
-      </Flex>
-      <Flex flex={1}>
-        <Image
-          alt={'Login Image'}
-          objectFit={'cover'}
-          src={
-            // 'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-            '/img/photo2.jpg'
-          }
-        />
-      </Flex>
-    </Stack>
+        </Flex>
+      </Box>
+    </chakra.header>
   );
-}
+};
+
+
+
+
+export default Hero ;
