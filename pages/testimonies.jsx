@@ -60,7 +60,7 @@ const Testimonials = () => {
     <Container maxW="5xl" p={{ base: 5, md: 10 }} bg={useColorModeValue('gray.200', 'gray.600')}>
       <Flex justify="center" mb={8}>
         <chakra.h3 fontSize="3xl" fontWeight="bold" mb={3} textAlign="center">
-          Our Clients
+          Nos Clients
         </chakra.h3>
       </Flex>
       <SimpleGrid columns={{ base: 1, md: 2 }} placeItems="center" spacing={1} mt={12} mb={4}>

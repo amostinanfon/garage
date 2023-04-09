@@ -60,7 +60,7 @@ const NAV_ITEMS  = [
   },
   {
     label: 'Contact',
-    href: '#',
+    href: '/contact',
   },
 ];
 
@@ -116,7 +116,7 @@ export default function Navbar() {
             fontSize={'sm'}
             fontWeight={400}
             variant={'link'}
-            href={'#'}>
+            href={'/login'}>
             Sign In
           </Button>
           <Button

@@ -98,10 +98,10 @@ const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slidesCount = slides.length;
   const carouselStyle = {
-    transition: "all 1.5s",
+    transition: "all 0.5s",
     ml: `-${currentSlide * 100}%`,
   };
-  const SLIDES_INTERVAL_TIME = 10000;
+  const SLIDES_INTERVAL_TIME = 5000;
   const ANIMATION_DIRECTION = "right";
   useEffect(() => {
     const prevSlide = () => {
