@@ -38,14 +38,14 @@ const fonts = {
 
 
 const config = {
-  initialColorMode: "dark",
+  // initialColorMode: "dark",
   useSystemColorMode: false
 };
 
 
 
 
-const theme = extendTheme({ fonts , breakpoints , colors , config})
+const theme = extendTheme({ fonts , breakpoints , colors, config})
 
 // 3. Pass the `theme` prop to the `ChakraProvider`
 function App({ Component, pageProps }) {

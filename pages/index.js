@@ -4,6 +4,10 @@ import { Box , Center} from '@chakra-ui/react';
 import Hero from '../components/Hero';
 import Features from '@/components/Features';
 import Stats from '../components/Stats';
+import Testimonial from '@/components/Testimonial';
+
+
+
 
 export default function Home() {
   return (
@@ -17,6 +21,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Stats />
+      <Testimonial />
     </>
   )
 }

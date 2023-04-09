@@ -24,7 +24,7 @@ const Stats = () => {
   return (
     <Stack minH="100vh" direction={{ base: 'column', md: 'row' }}>
       <Flex flex={1}>
-        <Image alt="Cover image" objectFit="cover" src="/img/photo1.jpg" />
+        <Image alt="Cover image" objectFit="cover" src="/img/photo16.jpg" />
       </Flex>
       <Flex p={8} flex={1} align="center" justify="center">
         <Flex direction="column">

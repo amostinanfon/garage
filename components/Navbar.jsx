@@ -30,7 +30,7 @@ const NAV_ITEMS  = [
       {
         label: 'GROUPE & GARAGE TASSO',
         subLabel: 'introduction sommaire',
-        href: '#',
+        href: '/',
       },
       {
         label: 'New & Noteworthy',
@@ -45,12 +45,12 @@ const NAV_ITEMS  = [
       {
         label: 'Dépannage',
         subLabel: 'Trouvez toutes les informations',
-        href: '#',
+        href: '/services',
       },
       {
         label: 'Vente & Achat',
         subLabel: "Tout ce qu'il faut savoir à propos des ventes ou achats",
-        href: '#',
+        href: '/testimonies',
       },
     ],
   },

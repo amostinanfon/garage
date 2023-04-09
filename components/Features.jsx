@@ -18,7 +18,7 @@ import {
     MdQueryStats
 } from "react-icons/md"
   
-  const Card = ({ heading, description, icon, href , bgColor}) => {
+  const Card = ({ heading, description, icon, href , bgColor }) => {
     return (
       <Box
         maxW={{ base: 'full', md: '275px' }}
