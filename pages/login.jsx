@@ -47,7 +47,7 @@ const Login = () => {
             </VStack>
             <VStack w="100%">
               <Stack direction="row" justify="space-between" w="100%">
-                <Checkbox colorScheme="green" size="md">
+                <Checkbox colorScheme="blue" size="md">
                   Se souvenir de moi
                 </Checkbox>
                 <Link fontSize={{ base: 'md', sm: 'md' }}>Mot de passe oublié?</Link>
